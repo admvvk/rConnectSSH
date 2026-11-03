@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=rConnectSSH
+Comment=SSH connection manager
+Exec=rconnectssh
+Icon=rconnectssh
+Terminal=false
+StartupNotify=true
+Categories=Network;RemoteAccess;

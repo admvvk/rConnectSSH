@@ -1,0 +1,5 @@
+#!/bin/sh
+# Thin launcher so the app is reachable both from the applications menu
+# (via the .desktop entry's Exec=) and from a terminal as a plain command,
+# instead of only via `python3 -m rconnect`.
+exec python3 -m rconnect "$@"

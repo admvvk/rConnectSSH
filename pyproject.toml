@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rconnect"
+version = "0.2.0"
+description = "GTK SSH connection manager with mRemoteNG-style docked session tabs"
+requires-python = ">=3.11"
+dependencies = [
+    "cryptography>=42",
+]
+
+# PyGObject (gi) is intentionally NOT listed here: it must come from system
+# packages (python3-gi, gir1.2-gtk-3.0, gir1.2-vte-2.91) built against the
+# distro's GTK3/VTE + GObject-Introspection, not from a pip wheel. See
+# docker/client/Dockerfile for the known-good set of system packages.
+
+[tool.setuptools.packages.find]
+include = ["rconnect*"]

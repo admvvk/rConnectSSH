@@ -1,0 +1,17 @@
+Package: rconnectssh
+Version: __VERSION__
+Section: net
+Priority: optional
+Architecture: all
+Depends: python3 (>= 3.11), python3-gi, gir1.2-gtk-3.0, gir1.2-vte-2.91, python3-cryptography, openssh-client, sshpass
+Maintainer: admvvk
+Homepage: https://github.com/admvvk/rConnectSSH
+Description: GTK SSH connection manager
+ rConnectSSH is an SSH connection manager for Linux, in the spirit of
+ mRemoteNG: a docked connections tree lives in one window, with SSH
+ sessions opening as tabs inside it instead of separate top-level
+ windows (unlike Remmina).
+ .
+ SSH runs through a native VTE terminal widget (no external terminal
+ emulator, no process/window discovery), with a right-click Copy/Paste
+ context menu.

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mrng:Connections xmlns:mrng="http://mremoteng.org" Name="Подключения" Export="false" EncryptionEngine="AES" BlockCipherMode="GCM" KdfIterations="1000" FullFileEncryption="false" Protected="ucfHQNkxw8T5KEXLwV0kICj4Tfu2eG4rjvCsIYuMXOiufcMGUkvMoho0yTGIAmN2lbvB+rikJynLJKiKfF1tjRCF" ConfVersion="2.6">
+    <Node Name="TestGroup" Type="Container" Expanded="true">
+        <Node Name="ssh-host" Type="Connection" Username="testuser" Password="uMEiEFd4YunhA7GNoGLkM/wLdsSerMruxyib5HqaTBvGAzWnIqD/exeEnj5SiGS0z2Cmw8UqxHjydVY=" Hostname="192.0.2.5" Protocol="SSH2" Port="22" />
+        <Node Name="rdp-host" Type="Connection" Username="admin" Password="dVT6sHQY3JR5vW1PyURnFGEv0fqR5mVXFsJWORoDFNF+NbGD6Qbk+DWZOWQlyrZ/qSuhzp2BnZsD+A==" Hostname="192.0.2.6" Protocol="RDP" Port="3389" />
+        <Node Name="telnet-host" Type="Connection" Username="root" Password="mx0IFRHdntZeUXkwHnyD3guIinFSgkfDx0+rvsu96e8yxlLWEgAuR8W+KR0zXY314mXsK/iFYlni8Q==" Hostname="192.0.2.7" Protocol="Telnet" Port="23" />
+    </Node>
+</mrng:Connections>
