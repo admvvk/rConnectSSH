@@ -9,10 +9,10 @@
 # packaging/README.md for the exact clean-container build/test recipe
 # this was developed and verified against).
 #
-# Usage: packaging/build_deb.sh [version]   (default: 0.2.0)
+# Usage: packaging/build_deb.sh [version]   (default: 0.1.0)
 set -euo pipefail
 
-VERSION="${1:-0.2.0}"
+VERSION="${1:-0.1.0}"
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 STAGE="$(mktemp -d)"
 trap 'rm -rf "$STAGE"' EXIT
